@@ -1,0 +1,6 @@
+framework module Pods_SPAppStoreController {
+  umbrella header "Pods-SPAppStoreController-umbrella.h"
+
+  export *
+  module * { export * }
+}

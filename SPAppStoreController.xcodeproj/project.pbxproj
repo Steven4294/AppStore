@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BA8F2608E45E7B07F944C4 /* Pods_SPAppStoreControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59FFE7E5697E28C3161BE15 /* Pods_SPAppStoreControllerUITests.framework */; };
+		87776181BB5BE593FA6B63D0 /* Pods_SPAppStoreController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8BDC98E90D10A3CE82E30 /* Pods_SPAppStoreController.framework */; };
+		D4EEB04920EC51B200AB5941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB04820EC51B200AB5941 /* AppDelegate.swift */; };
+		D4EEB04E20EC51B200AB5941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEB04C20EC51B200AB5941 /* Main.storyboard */; };
+		D4EEB05020EC51B400AB5941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EEB04F20EC51B400AB5941 /* Assets.xcassets */; };
+		D4EEB05320EC51B400AB5941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEB05120EC51B400AB5941 /* LaunchScreen.storyboard */; };
+		D4EEB05E20EC51B400AB5941 /* SPAppStoreControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB05D20EC51B400AB5941 /* SPAppStoreControllerTests.swift */; };
+		D4EEB06920EC51B400AB5941 /* SPAppStoreControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB06820EC51B400AB5941 /* SPAppStoreControllerUITests.swift */; };
+		D4EEB07720EC532800AB5941 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB07620EC532800AB5941 /* CollectionViewController.swift */; };
+		D4EEB07920F28B0E00AB5941 /* SPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB07820F28B0E00AB5941 /* SPCollectionViewCell.swift */; };
+		D4EEB07B20F2932C00AB5941 /* SPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB07A20F2932C00AB5941 /* SPDetailViewController.swift */; };
+		D4EEB07D20F29E2B00AB5941 /* SPObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB07C20F29E2B00AB5941 /* SPObjectManager.swift */; };
+		D4EEB07F20F2A41B00AB5941 /* SPPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB07E20F2A41B00AB5941 /* SPPost.swift */; };
+		D8C10F2A935AB7ADE5355748 /* Pods_SPAppStoreControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2C1EFA1271DDF9BD32BA61 /* Pods_SPAppStoreControllerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4EEB05A20EC51B400AB5941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4EEB03D20EC51B200AB5941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4EEB04420EC51B200AB5941;
+			remoteInfo = SPAppStoreController;
+		};
+		D4EEB06520EC51B400AB5941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4EEB03D20EC51B200AB5941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4EEB04420EC51B200AB5941;
+			remoteInfo = SPAppStoreController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE8BDC98E90D10A3CE82E30 /* Pods_SPAppStoreController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAppStoreController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDE44FC944F7FAFA7AD0490 /* Pods-SPAppStoreControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAppStoreControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPAppStoreControllerTests/Pods-SPAppStoreControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B01ABB537BF74CE0A5BD348 /* Pods-SPAppStoreController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAppStoreController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPAppStoreController/Pods-SPAppStoreController.release.xcconfig"; sourceTree = "<group>"; };
+		7CB63848F83DB7A30211BAF5 /* Pods-SPAppStoreControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAppStoreControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPAppStoreControllerUITests/Pods-SPAppStoreControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D05803D7C9519572A56F084 /* Pods-SPAppStoreControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAppStoreControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPAppStoreControllerTests/Pods-SPAppStoreControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C59FFE7E5697E28C3161BE15 /* Pods_SPAppStoreControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAppStoreControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB04520EC51B200AB5941 /* SPAppStoreController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPAppStoreController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB04820EC51B200AB5941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4EEB04D20EC51B200AB5941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4EEB04F20EC51B400AB5941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4EEB05220EC51B400AB5941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4EEB05420EC51B400AB5941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EEB05920EC51B400AB5941 /* SPAppStoreControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPAppStoreControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB05D20EC51B400AB5941 /* SPAppStoreControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAppStoreControllerTests.swift; sourceTree = "<group>"; };
+		D4EEB05F20EC51B400AB5941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EEB06420EC51B400AB5941 /* SPAppStoreControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPAppStoreControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB06820EC51B400AB5941 /* SPAppStoreControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAppStoreControllerUITests.swift; sourceTree = "<group>"; };
+		D4EEB06A20EC51B400AB5941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EEB07620EC532800AB5941 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		D4EEB07820F28B0E00AB5941 /* SPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4EEB07A20F2932C00AB5941 /* SPDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPDetailViewController.swift; sourceTree = "<group>"; };
+		D4EEB07C20F29E2B00AB5941 /* SPObjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPObjectManager.swift; sourceTree = "<group>"; };
+		D4EEB07E20F2A41B00AB5941 /* SPPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPPost.swift; sourceTree = "<group>"; };
+		DF2C1EFA1271DDF9BD32BA61 /* Pods_SPAppStoreControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAppStoreControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4761641C600EB1E94F6CDF8 /* Pods-SPAppStoreControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAppStoreControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPAppStoreControllerUITests/Pods-SPAppStoreControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F328215D75411B2192908538 /* Pods-SPAppStoreController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAppStoreController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPAppStoreController/Pods-SPAppStoreController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4EEB04220EC51B200AB5941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87776181BB5BE593FA6B63D0 /* Pods_SPAppStoreController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEB05620EC51B400AB5941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C10F2A935AB7ADE5355748 /* Pods_SPAppStoreControllerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEB06120EC51B400AB5941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA8F2608E45E7B07F944C4 /* Pods_SPAppStoreControllerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C28E04C7E5956C8DF45313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8BDC98E90D10A3CE82E30 /* Pods_SPAppStoreController.framework */,
+				DF2C1EFA1271DDF9BD32BA61 /* Pods_SPAppStoreControllerTests.framework */,
+				C59FFE7E5697E28C3161BE15 /* Pods_SPAppStoreControllerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86167BF44DE74785053F92BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F328215D75411B2192908538 /* Pods-SPAppStoreController.debug.xcconfig */,
+				2B01ABB537BF74CE0A5BD348 /* Pods-SPAppStoreController.release.xcconfig */,
+				1EDE44FC944F7FAFA7AD0490 /* Pods-SPAppStoreControllerTests.debug.xcconfig */,
+				9D05803D7C9519572A56F084 /* Pods-SPAppStoreControllerTests.release.xcconfig */,
+				7CB63848F83DB7A30211BAF5 /* Pods-SPAppStoreControllerUITests.debug.xcconfig */,
+				E4761641C600EB1E94F6CDF8 /* Pods-SPAppStoreControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4EEB03C20EC51B200AB5941 = {
+			isa = PBXGroup;
+			children = (
+				D4EEB04720EC51B200AB5941 /* SPAppStoreController */,
+				D4EEB05C20EC51B400AB5941 /* SPAppStoreControllerTests */,
+				D4EEB06720EC51B400AB5941 /* SPAppStoreControllerUITests */,
+				D4EEB04620EC51B200AB5941 /* Products */,
+				86167BF44DE74785053F92BB /* Pods */,
+				17C28E04C7E5956C8DF45313 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EEB04620EC51B200AB5941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEB04520EC51B200AB5941 /* SPAppStoreController.app */,
+				D4EEB05920EC51B400AB5941 /* SPAppStoreControllerTests.xctest */,
+				D4EEB06420EC51B400AB5941 /* SPAppStoreControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4EEB04720EC51B200AB5941 /* SPAppStoreController */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEB04820EC51B200AB5941 /* AppDelegate.swift */,
+				D4EEB07C20F29E2B00AB5941 /* SPObjectManager.swift */,
+				D4EEB07E20F2A41B00AB5941 /* SPPost.swift */,
+				D4EEB04C20EC51B200AB5941 /* Main.storyboard */,
+				D4EEB07A20F2932C00AB5941 /* SPDetailViewController.swift */,
+				D4EEB07620EC532800AB5941 /* CollectionViewController.swift */,
+				D4EEB07820F28B0E00AB5941 /* SPCollectionViewCell.swift */,
+				D4EEB04F20EC51B400AB5941 /* Assets.xcassets */,
+				D4EEB05120EC51B400AB5941 /* LaunchScreen.storyboard */,
+				D4EEB05420EC51B400AB5941 /* Info.plist */,
+			);
+			path = SPAppStoreController;
+			sourceTree = "<group>";
+		};
+		D4EEB05C20EC51B400AB5941 /* SPAppStoreControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEB05D20EC51B400AB5941 /* SPAppStoreControllerTests.swift */,
+				D4EEB05F20EC51B400AB5941 /* Info.plist */,
+			);
+			path = SPAppStoreControllerTests;
+			sourceTree = "<group>";
+		};
+		D4EEB06720EC51B400AB5941 /* SPAppStoreControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEB06820EC51B400AB5941 /* SPAppStoreControllerUITests.swift */,
+				D4EEB06A20EC51B400AB5941 /* Info.plist */,
+			);
+			path = SPAppStoreControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4EEB04420EC51B200AB5941 /* SPAppStoreController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EEB06D20EC51B400AB5941 /* Build configuration list for PBXNativeTarget "SPAppStoreController" */;
+			buildPhases = (
+				B3ED965450601B49C60C2C1A /* [CP] Check Pods Manifest.lock */,
+				D4EEB04120EC51B200AB5941 /* Sources */,
+				D4EEB04220EC51B200AB5941 /* Frameworks */,
+				D4EEB04320EC51B200AB5941 /* Resources */,
+				C99D3A9DB56949A5DB13D714 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPAppStoreController;
+			productName = SPAppStoreController;
+			productReference = D4EEB04520EC51B200AB5941 /* SPAppStoreController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4EEB05820EC51B400AB5941 /* SPAppStoreControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EEB07020EC51B400AB5941 /* Build configuration list for PBXNativeTarget "SPAppStoreControllerTests" */;
+			buildPhases = (
+				F7E232F88C28AD9D91B69362 /* [CP] Check Pods Manifest.lock */,
+				D4EEB05520EC51B400AB5941 /* Sources */,
+				D4EEB05620EC51B400AB5941 /* Frameworks */,
+				D4EEB05720EC51B400AB5941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4EEB05B20EC51B400AB5941 /* PBXTargetDependency */,
+			);
+			name = SPAppStoreControllerTests;
+			productName = SPAppStoreControllerTests;
+			productReference = D4EEB05920EC51B400AB5941 /* SPAppStoreControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4EEB06320EC51B400AB5941 /* SPAppStoreControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EEB07320EC51B400AB5941 /* Build configuration list for PBXNativeTarget "SPAppStoreControllerUITests" */;
+			buildPhases = (
+				134560D4139E5D6B1113F643 /* [CP] Check Pods Manifest.lock */,
+				D4EEB06020EC51B400AB5941 /* Sources */,
+				D4EEB06120EC51B400AB5941 /* Frameworks */,
+				D4EEB06220EC51B400AB5941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4EEB06620EC51B400AB5941 /* PBXTargetDependency */,
+			);
+			name = SPAppStoreControllerUITests;
+			productName = SPAppStoreControllerUITests;
+			productReference = D4EEB06420EC51B400AB5941 /* SPAppStoreControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4EEB03D20EC51B200AB5941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Steven Petteruti";
+				TargetAttributes = {
+					D4EEB04420EC51B200AB5941 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D4EEB05820EC51B400AB5941 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D4EEB04420EC51B200AB5941;
+					};
+					D4EEB06320EC51B400AB5941 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D4EEB04420EC51B200AB5941;
+					};
+				};
+			};
+			buildConfigurationList = D4EEB04020EC51B200AB5941 /* Build configuration list for PBXProject "SPAppStoreController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4EEB03C20EC51B200AB5941;
+			productRefGroup = D4EEB04620EC51B200AB5941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4EEB04420EC51B200AB5941 /* SPAppStoreController */,
+				D4EEB05820EC51B400AB5941 /* SPAppStoreControllerTests */,
+				D4EEB06320EC51B400AB5941 /* SPAppStoreControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4EEB04320EC51B200AB5941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EEB05320EC51B400AB5941 /* LaunchScreen.storyboard in Resources */,
+				D4EEB05020EC51B400AB5941 /* Assets.xcassets in Resources */,
+				D4EEB04E20EC51B200AB5941 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEB05720EC51B400AB5941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEB06220EC51B400AB5941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		134560D4139E5D6B1113F643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPAppStoreControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ED965450601B49C60C2C1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPAppStoreController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99D3A9DB56949A5DB13D714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SPAppStoreController/Pods-SPAppStoreController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cards/Cards.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UIScrollView-InfiniteScroll/UIScrollView_InfiniteScroll.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cards.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIScrollView_InfiniteScroll.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPAppStoreController/Pods-SPAppStoreController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E232F88C28AD9D91B69362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPAppStoreControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4EEB04120EC51B200AB5941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EEB07B20F2932C00AB5941 /* SPDetailViewController.swift in Sources */,
+				D4EEB07D20F29E2B00AB5941 /* SPObjectManager.swift in Sources */,
+				D4EEB07720EC532800AB5941 /* CollectionViewController.swift in Sources */,
+				D4EEB07F20F2A41B00AB5941 /* SPPost.swift in Sources */,
+				D4EEB04920EC51B200AB5941 /* AppDelegate.swift in Sources */,
+				D4EEB07920F28B0E00AB5941 /* SPCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEB05520EC51B400AB5941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EEB05E20EC51B400AB5941 /* SPAppStoreControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEB06020EC51B400AB5941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EEB06920EC51B400AB5941 /* SPAppStoreControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4EEB05B20EC51B400AB5941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4EEB04420EC51B200AB5941 /* SPAppStoreController */;
+			targetProxy = D4EEB05A20EC51B400AB5941 /* PBXContainerItemProxy */;
+		};
+		D4EEB06620EC51B400AB5941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4EEB04420EC51B200AB5941 /* SPAppStoreController */;
+			targetProxy = D4EEB06520EC51B400AB5941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4EEB04C20EC51B200AB5941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EEB04D20EC51B200AB5941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EEB05120EC51B400AB5941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EEB05220EC51B400AB5941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4EEB06B20EC51B400AB5941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4EEB06C20EC51B400AB5941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EEB06E20EC51B400AB5941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F328215D75411B2192908538 /* Pods-SPAppStoreController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RUWR9K46U;
+				INFOPLIST_FILE = SPAppStoreController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Petteruti.SPAppStoreController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4EEB06F20EC51B400AB5941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B01ABB537BF74CE0A5BD348 /* Pods-SPAppStoreController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RUWR9K46U;
+				INFOPLIST_FILE = SPAppStoreController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Petteruti.SPAppStoreController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4EEB07120EC51B400AB5941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDE44FC944F7FAFA7AD0490 /* Pods-SPAppStoreControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPAppStoreControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Petteruti.SPAppStoreControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPAppStoreController.app/SPAppStoreController";
+			};
+			name = Debug;
+		};
+		D4EEB07220EC51B400AB5941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D05803D7C9519572A56F084 /* Pods-SPAppStoreControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPAppStoreControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Petteruti.SPAppStoreControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPAppStoreController.app/SPAppStoreController";
+			};
+			name = Release;
+		};
+		D4EEB07420EC51B400AB5941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB63848F83DB7A30211BAF5 /* Pods-SPAppStoreControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPAppStoreControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Petteruti.SPAppStoreControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPAppStoreController;
+			};
+			name = Debug;
+		};
+		D4EEB07520EC51B400AB5941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4761641C600EB1E94F6CDF8 /* Pods-SPAppStoreControllerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPAppStoreControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Petteruti.SPAppStoreControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPAppStoreController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4EEB04020EC51B200AB5941 /* Build configuration list for PBXProject "SPAppStoreController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EEB06B20EC51B400AB5941 /* Debug */,
+				D4EEB06C20EC51B400AB5941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EEB06D20EC51B400AB5941 /* Build configuration list for PBXNativeTarget "SPAppStoreController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EEB06E20EC51B400AB5941 /* Debug */,
+				D4EEB06F20EC51B400AB5941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EEB07020EC51B400AB5941 /* Build configuration list for PBXNativeTarget "SPAppStoreControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EEB07120EC51B400AB5941 /* Debug */,
+				D4EEB07220EC51B400AB5941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EEB07320EC51B400AB5941 /* Build configuration list for PBXNativeTarget "SPAppStoreControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EEB07420EC51B400AB5941 /* Debug */,
+				D4EEB07520EC51B400AB5941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4EEB03D20EC51B200AB5941 /* Project object */;
+}
