@@ -12,8 +12,6 @@ target 'SPAppStoreController' do
   pod 'SwiftyJSON', '~> 4.0'
   pod 'SDWebImage', '~> 4.0'
   pod 'SDWebImage/GIF'
-  pod 'IDMPhotoBrowser'
-  pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'
   
 
   target 'SPAppStoreControllerTests' do
