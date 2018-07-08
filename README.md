@@ -16,5 +16,5 @@ This app loads the top 25 posts from api.reddit and displays their: subreddit, t
 
 
 
-![Demo GIF](AirCam.mov)
+![Demo GIF](AirCam.gif)
 
